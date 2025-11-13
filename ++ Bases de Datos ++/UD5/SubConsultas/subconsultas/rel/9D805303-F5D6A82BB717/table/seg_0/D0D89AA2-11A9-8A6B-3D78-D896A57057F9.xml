@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0D89AA2-11A9-8A6B-3D78-D896A57057F9" name="EMPLE">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>37CDDFEB-15F7-1D64-DBE7-046CF75C8D9D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMP_NO" id="775869E7-8D74-158B-B651-F8850CE3A7D2">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>4A188A69-B051-388E-45CF-7354A061AAC4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>04585292-AA58-3304-E325-3E5FB0E7F1FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="26F2756D-1881-CEE1-7D04-F5FCB7E1788D">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>1E95BF6A-C2F7-0761-70AA-559D985222D4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>69652FC4-26EB-59A0-7693-4D01506EB794</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFICIO" id="C6DBD2A9-F2C1-9A35-C7BC-4519BB143782">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>7F72F54F-18AD-34FB-CE08-3515C57EBBAB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>59A03C62-FF89-5022-BDC4-E6B1D9C8B945</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_JEFE" id="F84756B6-3B21-F003-D8E9-E16EFBD2C14C">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>C62DEC93-51A0-A18A-8174-F3751B352E47</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>04585292-AA58-3304-E325-3E5FB0E7F1FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9A8390E-2513-B544-4026-B6CBE2257105" referredColumn="775869E7-8D74-158B-B651-F8850CE3A7D2"/>
+</associations>
+</Column>
+<Column name="FECHA_ALTA" id="03726B33-5EAC-A8EE-806A-34CAACFB668E">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>6142FEEB-C8E4-58E7-11E2-A1A885270F6F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>54A5A615-C9BF-0EE6-1FEB-2BBC6E35BE06</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO" id="DB01C521-1303-AF7D-528A-14FFE9DFC11E">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>AC3908A6-8C91-7730-D99E-39B54E52A025</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>714BB685-D046-6FF0-3811-0172E2E07D86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMISION_PCT" id="1FF29CC6-885C-AB08-D634-6C5AF736D3EB">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>FC5D74C3-F87F-4130-6C86-3DF6A734EAFA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5CF757C-ED79-7462-5763-4AFF1743B6F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPT_NO" id="C42B1D58-33C0-CF75-5DA2-96B633E6055E">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>6C360D76-0423-C501-3EAA-B97C84C057CF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5CF93A2B-EEA2-1963-C7F3-DE33F8C72A27</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C694AD6-915F-A0C5-24ED-4620872B68B7" referredColumn="14C1C745-1638-34E4-8BDA-BD439586196C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A47C814-C1D0-B962-2912-11DF3C644DCB" name="EMPLE_PK">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>EE20A086-65EA-A1BA-CD61-C108ED4745AE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="775869E7-8D74-158B-B651-F8850CE3A7D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F24C6F2F-9B98-C885-6E0C-8EF87D1BA116" name="EMPLE_DEP_FK">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C42B1D58-33C0-CF75-5DA2-96B633E6055E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B88EC388-3066-48F7-EDA1-1480BE6506D9" name="EMPLE_DIR_FK">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F84756B6-3B21-F003-D8E9-E16EFBD2C14C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

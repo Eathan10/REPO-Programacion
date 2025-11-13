@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EA60BBB-B0CA-DA00-6C0C-F0AB393A4A6D" name="ciclistas">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>194D0B1E-6599-1C3D-6FD8-9E16C9787136</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dorsal" id="DDF7522C-E2C7-C1FC-A3B8-F557A253D5C1">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>B440ACCC-7165-D27F-8823-B6289AEAA368</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5CF757C-ED79-7462-5763-4AFF1743B6F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="37F72EA2-A961-28D2-9702-0F6F085F336D">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>EDC43706-5231-1260-B586-C2F572F2ABAA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>870A06D9-5061-0861-37DD-717AD98486C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="6CAAF744-94A3-BCD4-2C3B-A0CAE3B690B5">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>47B1AFDF-4225-86EF-93D8-45F356A49FB5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3035AEAD-3848-C7EC-A7AA-0C5CEBDAC447</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codEquipo" id="E4A21EE2-B7CD-CE3A-EDE7-69874500F090">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>93D616F7-4C87-62B3-7A67-2DF6D7B154A5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>75417D5E-4B7E-F98D-C3CB-B21CA676704D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26E2FC7D-B399-E934-FA32-F08EEDB11470" referredColumn="EFF9AFBD-0A7A-AA56-A5FF-07B8480C7486"/>
+</associations>
+</Column>
+<Column name="fechaNacimiento" id="A13278D5-E317-B69E-7C8E-2B8832AC8D55">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>21CCA5B8-9104-05D6-B421-BBC7F0E97B90</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>54A5A615-C9BF-0EE6-1FEB-2BBC6E35BE06</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03D71C00-4084-E9CD-EE9F-42C28693C5D6" name="cicl_dorsal_pk">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>3D20C03A-703E-CDB4-6C96-C15B1A1594EE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDF7522C-E2C7-C1FC-A3B8-F557A253D5C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10D7E363-9CC9-43C1-2118-BF301A654818" name="cicl_codEquipo_fk">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4A21EE2-B7CD-CE3A-EDE7-69874500F090"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="cicl_dorsal_ck" directorySegmentName="seg_0" id="34CEF508-F8F2-9ADC-7EC2-3522BB3251CE">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>5178345C-7494-704E-BFC4-995F949B3692</importedID>
+<rule><![CDATA[dorsal between 1 and 99]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

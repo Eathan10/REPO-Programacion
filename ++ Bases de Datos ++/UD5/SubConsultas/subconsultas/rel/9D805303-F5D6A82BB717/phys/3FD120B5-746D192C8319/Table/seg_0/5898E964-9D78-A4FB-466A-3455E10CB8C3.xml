@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ciclistas" directorySegmentName="seg_0" id="5898E964-9D78-A4FB-466A-3455E10CB8C3">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nombre" id="4DD7F700-CA35-0D9E-C655-F78C51829104">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="codEquipo" id="71E9CC59-EFD5-77DB-F887-F3D7503519E5">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dorsal" id="83BE2D21-FA2B-0792-01AD-736510C6AE26">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nacionalidad" id="A9A3509C-7043-4F09-CCB8-FDD52B9E477C">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fechaNacimiento" id="BD1EB1BB-401F-AF28-38C4-EAB6510AA8E7">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="cicl_codEquipo_fk" id="73506263-AA32-9667-9611-D6F85E11C81B">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="cicl_dorsal_pk" id="DCD3C367-70AA-1589-8E4D-1D1FAFE92678">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="cicl_dorsal_ck" id="5C842E0F-503A-642C-5CBC-16B863B18381">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5898E964-9D78-A4FB-466A-3455E10CB8C3" name="ciclistas">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>2B19D3A1-1D2B-FB87-1FCF-6870AED3997F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dorsal" id="83BE2D21-FA2B-0792-01AD-736510C6AE26">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>BFAFD2E3-346D-059B-9F95-29013BA4D30E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5CF757C-ED79-7462-5763-4AFF1743B6F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="4DD7F700-CA35-0D9E-C655-F78C51829104">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>BBB3052E-9A2E-17AA-C439-DA0C8F52B996</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>870A06D9-5061-0861-37DD-717AD98486C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="A9A3509C-7043-4F09-CCB8-FDD52B9E477C">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>D96DF1F8-A860-A32E-BB72-581B7A69F5B9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3035AEAD-3848-C7EC-A7AA-0C5CEBDAC447</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codEquipo" id="71E9CC59-EFD5-77DB-F887-F3D7503519E5">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>EBA56285-90CB-201A-A342-6A4013E3EE03</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>75417D5E-4B7E-F98D-C3CB-B21CA676704D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1250EC9-377F-44C5-F254-ACC4926F266F" referredColumn="5097AF15-9A49-5972-71E2-E6B0A940DD7C"/>
+</associations>
+</Column>
+<Column name="fechaNacimiento" id="BD1EB1BB-401F-AF28-38C4-EAB6510AA8E7">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>4A2B9B79-88D4-8549-3CF5-E4204A4B2326</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>54A5A615-C9BF-0EE6-1FEB-2BBC6E35BE06</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCD3C367-70AA-1589-8E4D-1D1FAFE92678" name="cicl_dorsal_pk">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>CC5AC38D-460C-5BC0-6EA7-28641DCDFB18</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83BE2D21-FA2B-0792-01AD-736510C6AE26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73506263-AA32-9667-9611-D6F85E11C81B" name="cicl_codEquipo_fk">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71E9CC59-EFD5-77DB-F887-F3D7503519E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="cicl_dorsal_ck" directorySegmentName="seg_0" id="5C842E0F-503A-642C-5CBC-16B863B18381">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>68359902-A8E9-9CEA-4A3E-BF25400B31B1</importedID>
+<rule><![CDATA[dorsal between 1 and 99]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

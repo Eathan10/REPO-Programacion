@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="subconsultas" id="ACB6C926-A886-B20B-9150-C2A854FC91CA" version="3.5">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:11 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>ACB6C926-A886-B20B-9150-C2A854FC91CA</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2460C917-A5A0-D8CC-3848-00E27F7900CA">
+<designStoragePath>C:\repasoDDL_UD4</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="602FCBD8-F298-AEC0-FFD8-12419A185DB9">
+<designStoragePath>C:\repasoDDL_UD4</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

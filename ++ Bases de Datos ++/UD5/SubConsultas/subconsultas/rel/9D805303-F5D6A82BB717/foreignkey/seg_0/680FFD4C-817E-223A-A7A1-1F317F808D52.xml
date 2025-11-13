@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="680FFD4C-817E-223A-A7A1-1F317F808D52" containerWithKeyObject="27DDE26D-6DD8-B155-C607-6162AC8CF1EB" localFKIndex="65A9B40A-386F-03C4-CB6F-DC11FF0F2D2A" name="clasEtap_numEtapa_fk">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>F09447ED-A21C-E0A8-90BC-4C5727CBA4B4</importedID>
+<referredTableLongName>etapas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4BD60665-A0AD-972D-58A3-4052D504D327</referredTableID>
+<keyObject>449009BD-6779-707E-326A-3E735B24F30F</keyObject>
+<referredKeyID>449009BD-6779-707E-326A-3E735B24F30F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numEtapas</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

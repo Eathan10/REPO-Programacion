@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0A5A1A64-5EC4-7A82-380B-7AC84EE30596" containerWithKeyObject="27DDE26D-6DD8-B155-C607-6162AC8CF1EB" localFKIndex="228F05E6-DB60-B59D-0754-4710A800034A" name="clasEtap_dorsal_fk">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>270B7418-0527-11FB-7F98-4248EF2EB90A</importedID>
+<referredTableLongName>ciclistas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5898E964-9D78-A4FB-466A-3455E10CB8C3</referredTableID>
+<keyObject>DCD3C367-70AA-1589-8E4D-1D1FAFE92678</keyObject>
+<referredKeyID>DCD3C367-70AA-1589-8E4D-1D1FAFE92678</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>dorsal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

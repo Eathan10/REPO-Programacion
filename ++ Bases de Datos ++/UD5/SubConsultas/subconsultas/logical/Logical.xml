@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="323222A4-9B67-6F65-A62E-1996AEFB6118" mainViewID="C3477B25-0AB8-25FE-9DD4-B9D44F8B8B9D">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:11 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Equipos" directorySegmentName="seg_0" id="2560002E-20E7-2358-1477-A05BCDDEFDCE">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nombre" id="59A03157-02C3-3EB8-FDCE-FDF774CD9F62">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombreDirector" id="C0FB43B4-4F2F-F47C-4A43-4B9A63FF536D">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="codEquipo" id="EFF9AFBD-0A7A-AA56-A5FF-07B8480C7486">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nacionalidad" id="F8E6A517-24F7-0747-FC6F-4F45A153B0DD">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="equi_codEquipo_pk" id="0009BDEC-CA32-0F6E-134A-73C7AA6B1F7D">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

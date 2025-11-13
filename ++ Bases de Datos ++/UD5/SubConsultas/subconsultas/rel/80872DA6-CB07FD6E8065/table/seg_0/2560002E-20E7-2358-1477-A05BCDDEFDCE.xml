@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2560002E-20E7-2358-1477-A05BCDDEFDCE" name="Equipos">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>F3A9F02A-7CB7-6400-0C75-45C6D284B37C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codEquipo" id="EFF9AFBD-0A7A-AA56-A5FF-07B8480C7486">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>D23D45B2-C753-BE31-D1EE-3215BF3C277F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>75417D5E-4B7E-F98D-C3CB-B21CA676704D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="59A03157-02C3-3EB8-FDCE-FDF774CD9F62">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>4D32A9F0-4F64-D972-0C09-9D2608553B5F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>870A06D9-5061-0861-37DD-717AD98486C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="F8E6A517-24F7-0747-FC6F-4F45A153B0DD">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>8396D891-F6DF-C443-B640-E54FCC592B16</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3035AEAD-3848-C7EC-A7AA-0C5CEBDAC447</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreDirector" id="C0FB43B4-4F2F-F47C-4A43-4B9A63FF536D">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>3A3A8196-E7E4-F33A-3BFB-31A3BC2AA7EA</importedID>
+<constraintName>equi_nombreDirector_ck</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3035AEAD-3848-C7EC-A7AA-0C5CEBDAC447</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12c" definition="upper(nombreDirector) = nombreDirector"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0009BDEC-CA32-0F6E-134A-73C7AA6B1F7D" name="equi_codEquipo_pk">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>04E6BE40-733A-5992-803A-04759759B85C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFF9AFBD-0A7A-AA56-A5FF-07B8480C7486"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

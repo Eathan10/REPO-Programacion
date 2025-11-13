@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F1250EC9-377F-44C5-F254-ACC4926F266F" containerWithKeyObject="5898E964-9D78-A4FB-466A-3455E10CB8C3" localFKIndex="73506263-AA32-9667-9611-D6F85E11C81B" name="cicl_codEquipo_fk">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 12:46:21 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>F9275580-8F0C-63BC-A360-46DC3E22197B</importedID>
+<referredTableLongName>Equipos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A6F590E-C78B-15A3-20F4-517303E702D0</referredTableID>
+<keyObject>C6CA4C60-C325-C84D-9926-2915E154ACDB</keyObject>
+<referredKeyID>C6CA4C60-C325-C84D-9926-2915E154ACDB</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>codEquipo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

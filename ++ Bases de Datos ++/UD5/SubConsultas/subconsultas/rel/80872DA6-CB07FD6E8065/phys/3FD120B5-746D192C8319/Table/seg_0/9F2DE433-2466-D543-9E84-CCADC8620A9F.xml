@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="etapas" directorySegmentName="seg_0" id="9F2DE433-2466-D543-9E84-CCADC8620A9F">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="numKms" id="08809C00-A9C9-18D2-9350-3C506DAFAC1D">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="premio" id="6321D798-8262-51A2-94B0-DB33842584BB">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fecha" id="BBCC4553-B0ED-A476-A331-B8928332020C">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="numEtapas" id="DB6B8570-4820-0206-069D-A62B7EC19B9F">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tipo" id="E97D287A-B1C7-F0B7-686C-F70681F3D5A4">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="etap_numEtapas_pk" id="FD876182-5645-ADC3-3C65-E54B9C15C373">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="etap_facha_ck" id="0927D373-5AD1-CA94-E3EC-5E439C5033BA">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

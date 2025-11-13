@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="61AB9FB0-2D84-628F-0F4A-B6DE00CEBB2A" containerWithKeyObject="8D5BC201-EBC0-3F5B-9CD1-938599011846" localFKIndex="2A382E1A-DEBB-91A4-F596-773890C1A204" name="clasEtap_numEtapa_fk">
+<sourceDDLFile>repasoDDL_UD4.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:32 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<importedID>943818FE-0945-7035-2A82-E336AC2889FD</importedID>
+<referredTableLongName>etapas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9F2DE433-2466-D543-9E84-CCADC8620A9F</referredTableID>
+<keyObject>FD876182-5645-ADC3-3C65-E54B9C15C373</keyObject>
+<referredKeyID>FD876182-5645-ADC3-3C65-E54B9C15C373</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numEtapas</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

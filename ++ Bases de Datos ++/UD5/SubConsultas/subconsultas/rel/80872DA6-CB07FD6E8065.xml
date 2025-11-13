@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="repasoDDL_UD4" id="80872DA6-22CB-1FED-788B-CB07FD6E8065" mainViewID="CD0AF154-EFB6-7BFB-B2C6-8F3EA2E456CA">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-13 11:39:28 UTC</createdTime>
+<ownerDesignName>subconsultas</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>repasoDDL_UD4.sql</fileName>
+<pathName>C:\Users\141ga08\Desktop\++ Bases de Datos ++\UD4</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>
