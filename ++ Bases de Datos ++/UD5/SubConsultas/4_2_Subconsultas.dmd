@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="4_2_Subconsultas" id="50FB6BA0-E264-D2EC-C0E7-B1617C24DECE" version="3.5">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-17 07:27:40 UTC</createdTime>
+<ownerDesignName>4_2_Subconsultas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>50FB6BA0-E264-D2EC-C0E7-B1617C24DECE</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C751601E-5628-3417-B599-5E0124A25147">
+<designStoragePath>C:\02_creacion_tablas_emple_depart_y_datos_nuevos</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

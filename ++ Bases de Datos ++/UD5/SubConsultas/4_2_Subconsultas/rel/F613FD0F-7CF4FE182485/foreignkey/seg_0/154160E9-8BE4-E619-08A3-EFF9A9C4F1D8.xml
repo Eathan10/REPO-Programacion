@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="154160E9-8BE4-E619-08A3-EFF9A9C4F1D8" containerWithKeyObject="7B170465-73BB-6DD8-995E-F7B2A2538A81" localFKIndex="BC2CF516-12E4-5142-BD8D-3DA57492BA17" name="EMPLE_DEP_FK">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-17 07:28:07 UTC</createdTime>
+<ownerDesignName>4_2_Subconsultas</ownerDesignName>
+<importedID>E294593F-CC57-9165-8E0D-45E08D1B9D53</importedID>
+<referredTableLongName>DEPART</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>34B3CDEB-51E4-6570-9979-7F73CE5625CF</referredTableID>
+<keyObject>E4508C1A-461F-20DA-4E17-B4C803AD5C45</keyObject>
+<referredKeyID>E4508C1A-461F-20DA-4E17-B4C803AD5C45</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DEPT_NO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

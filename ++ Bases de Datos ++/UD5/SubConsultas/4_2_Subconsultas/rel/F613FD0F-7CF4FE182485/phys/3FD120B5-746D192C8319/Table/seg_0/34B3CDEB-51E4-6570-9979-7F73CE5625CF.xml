@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DEPART" directorySegmentName="seg_0" id="34B3CDEB-51E4-6570-9979-7F73CE5625CF">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-17 07:28:07 UTC</createdTime>
+<ownerDesignName>4_2_Subconsultas</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DNOMBRE" id="39F52BC9-FA3A-0CA6-9E3F-57659958FE8F">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-17 07:28:07 UTC</createdTime>
+<ownerDesignName>4_2_Subconsultas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPT_NO" id="59AB5DDD-94B5-DE42-0509-8CB320EDB7AE">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-17 07:28:07 UTC</createdTime>
+<ownerDesignName>4_2_Subconsultas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOC" id="F8B5F993-8F60-503E-F878-ED69F4C3D910">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-17 07:28:07 UTC</createdTime>
+<ownerDesignName>4_2_Subconsultas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEP_PK" id="E4508C1A-461F-20DA-4E17-B4C803AD5C45">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-11-17 07:28:07 UTC</createdTime>
+<ownerDesignName>4_2_Subconsultas</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
