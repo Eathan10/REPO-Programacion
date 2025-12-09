@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="02_creacion_tablas_emple_depart_y_datos_nuevos_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_2_0_0" id="02E197E7-6BC9-BBE4-E3F2-9F42F216131B">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-22 11:37:46 UTC</createdTime>
+<ownerDesignName>emptNoEjercicio</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>02_creacion_tablas_emple_depart_y_datos_nuevos_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_4_0_0" id="245D1F1F-3611-8A94-5FE9-E1160ED87ACB">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-22 11:37:46 UTC</createdTime>
+<ownerDesignName>emptNoEjercicio</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>02_creacion_tablas_emple_depart_y_datos_nuevos_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_3_0_0" id="3CA9A3E0-5CDA-C749-19CE-951D1D489868">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-22 11:37:46 UTC</createdTime>
+<ownerDesignName>emptNoEjercicio</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>02_creacion_tablas_emple_depart_y_datos_nuevos_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_15" id="4512604F-D99D-F579-F87C-91E786BD0FC3">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-22 11:37:46 UTC</createdTime>
+<ownerDesignName>emptNoEjercicio</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>15</dataTypeSize>
+<fileName>02_creacion_tablas_emple_depart_y_datos_nuevos_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10" id="AC8D39E1-65DA-40BB-45D5-5E6C18F02FC0">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-22 11:37:46 UTC</createdTime>
+<ownerDesignName>emptNoEjercicio</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10</dataTypeSize>
+<fileName>02_creacion_tablas_emple_depart_y_datos_nuevos_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_14" id="C8C4BDA8-2BCB-39A0-FA58-48AEE6391E0B">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-22 11:37:46 UTC</createdTime>
+<ownerDesignName>emptNoEjercicio</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>14</dataTypeSize>
+<fileName>02_creacion_tablas_emple_depart_y_datos_nuevos_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="DE9A3DEB-B22D-B762-C539-0612172BC9AC">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-22 11:37:46 UTC</createdTime>
+<ownerDesignName>emptNoEjercicio</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>02_creacion_tablas_emple_depart_y_datos_nuevos_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_9_0_0" id="FF6DBB68-AB9D-5229-7001-64A1A7590E06">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-22 11:37:46 UTC</createdTime>
+<ownerDesignName>emptNoEjercicio</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>02_creacion_tablas_emple_depart_y_datos_nuevos_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

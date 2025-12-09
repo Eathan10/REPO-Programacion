@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="4CC23DB6-EB02-8720-C520-D810FB11506B" name="02_creacion_tablas_emple_depart_y_datos_nuevos" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

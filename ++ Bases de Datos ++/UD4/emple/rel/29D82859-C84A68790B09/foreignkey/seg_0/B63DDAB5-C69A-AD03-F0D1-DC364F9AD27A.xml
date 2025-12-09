@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B63DDAB5-C69A-AD03-F0D1-DC364F9AD27A" containerWithKeyObject="F963954B-EFB7-B4E1-A9F8-CF76C008CE96" localFKIndex="ACDC4630-7DFA-D426-1754-6F909835B6DF" name="EMPLE_DIR_FK">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-23 11:02:40 UTC</createdTime>
+<ownerDesignName>emple</ownerDesignName>
+<importedID>5B3E1A4D-26F4-F4E5-78BB-4FA6C27593C3</importedID>
+<referredTableLongName>EMPLE</referredTableLongName>
+<deleteRule>SET NULL</deleteRule>
+<referredTableID>F963954B-EFB7-B4E1-A9F8-CF76C008CE96</referredTableID>
+<keyObject>A9F292D5-5EA5-90B0-5870-043C990DBE78</keyObject>
+<referredKeyID>A9F292D5-5EA5-90B0-5870-043C990DBE78</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>EMP_NO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

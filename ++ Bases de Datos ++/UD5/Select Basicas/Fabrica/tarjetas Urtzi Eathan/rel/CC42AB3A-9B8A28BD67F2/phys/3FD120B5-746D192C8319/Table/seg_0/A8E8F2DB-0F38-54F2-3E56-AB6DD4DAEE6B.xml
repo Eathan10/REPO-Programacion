@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DEPART" directorySegmentName="seg_0" id="A8E8F2DB-0F38-54F2-3E56-AB6DD4DAEE6B">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DNOMBRE" id="24E5D74A-EBEB-4639-CBA0-5A224BDCF41D">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOC" id="424E3FD5-BA47-0494-6DFE-DD7C7A021F0E">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPT_NO" id="CD8DFDEE-3847-5099-E3FF-CBF4F60FAF2C">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEP_PK" id="E8CD0FC4-2914-FD16-1C25-4621FB20B02A">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

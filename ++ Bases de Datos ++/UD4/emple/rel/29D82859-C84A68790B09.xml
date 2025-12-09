@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="02_creacion_tablas_emple_depart_y_datos_nuevos" id="29D82859-456E-9E24-8F6B-C84A68790B09" mainViewID="2DB9F2F2-D113-85E3-80C2-DD85892B89C8">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-23 11:02:37 UTC</createdTime>
+<ownerDesignName>emple</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</fileName>
+<pathName>C:\Users\141ga08\Desktop\++ Bases de Datos ++\UD4</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

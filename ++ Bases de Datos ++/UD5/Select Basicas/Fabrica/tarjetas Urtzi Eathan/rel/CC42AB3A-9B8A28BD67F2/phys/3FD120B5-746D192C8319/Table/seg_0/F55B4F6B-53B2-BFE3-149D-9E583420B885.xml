@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMPLE" directorySegmentName="seg_0" id="F55B4F6B-53B2-BFE3-149D-9E583420B885">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA_ALTA" id="093CA299-31E7-21B1-C879-6BBB26177854">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARIO" id="1C42C2A8-86A2-0528-75BD-14F12B72EEB0">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OFICIO" id="33A0A6B9-8577-376A-83F2-273BD1CD3242">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO" id="3EEA340A-C76B-C96F-BD9D-3F99462607BC">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_JEFE" id="672A9FA2-6CC6-BE8C-FA99-A1FB2B9F202C">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMP_NO" id="B508C846-BA61-0098-34C1-57F64240B344">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMISION_PCT" id="B67A23B0-5E40-B7B0-136D-ADC55D502BB4">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPT_NO" id="DF154107-55ED-D137-F371-C74EE1269E96">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMPLE_DEP_FK" id="C91F847A-5653-FF1F-3A99-6BE1EA00E95E">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMPLE_DIR_FK" id="E949384A-CFBA-5F15-A436-C0484AEE9B6C">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMPLE_PK" id="D6697276-20A0-86D3-4CFA-C9C57627BAF7">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

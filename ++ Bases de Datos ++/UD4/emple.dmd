@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="emple" id="E1A1C36C-C487-B6AD-3A18-036C96874A75" version="3.5">
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-23 11:02:12 UTC</createdTime>
+<ownerDesignName>emple</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E1A1C36C-C487-B6AD-3A18-036C96874A75</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F5110EE6-60E8-9268-DA1F-6AE587DDB1D6">
+<designStoragePath>C:\02_creacion_tablas_emple_depart_y_datos_nuevos</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

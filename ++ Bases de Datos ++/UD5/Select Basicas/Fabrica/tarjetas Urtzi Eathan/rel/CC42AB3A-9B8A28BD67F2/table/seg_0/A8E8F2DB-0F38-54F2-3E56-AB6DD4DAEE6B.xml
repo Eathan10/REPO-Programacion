@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8E8F2DB-0F38-54F2-3E56-AB6DD4DAEE6B" name="DEPART">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+<importedID>1EDCF160-66DA-369E-E7C0-C1304D607DCC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPT_NO" id="CD8DFDEE-3847-5099-E3FF-CBF4F60FAF2C">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+<importedID>3FCF906E-9D50-8C13-657F-91A1F4507FAC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1E8BF4E1-2D94-C674-12C6-A286BD0353A6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNOMBRE" id="24E5D74A-EBEB-4639-CBA0-5A224BDCF41D">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+<importedID>759FFCA0-A426-9351-4AFC-EED8CDC78041</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9237575C-D01D-9895-FAFE-FE31795AA7E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC" id="424E3FD5-BA47-0494-6DFE-DD7C7A021F0E">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+<importedID>1B42F50C-F51B-E12F-76E9-796F12CE1FE9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9237575C-D01D-9895-FAFE-FE31795AA7E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8CD0FC4-2914-FD16-1C25-4621FB20B02A" name="DEP_PK">
+<sourceDDLFile>02_creacion_tablas_emple_depart_y_datos_nuevos.sql</sourceDDLFile>
+<createdBy>141ga08</createdBy>
+<createdTime>2025-10-27 07:19:53 UTC</createdTime>
+<ownerDesignName>tarjetas Urtzi Eathan </ownerDesignName>
+<importedID>D9F5FD36-4DB6-E989-21A1-9162CF3AFF0E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD8DFDEE-3847-5099-E3FF-CBF4F60FAF2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
