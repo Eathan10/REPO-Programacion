@@ -14,6 +14,7 @@ public class Main {
         try {
             conseguirProductos();
             pedirFechaDeHoy();
+            mostrarResultado();
         }catch (Exception e){
             JOptionPane.showMessageDialog(null,e);
         }
@@ -54,5 +55,25 @@ public class Main {
     public static void pedirFechaDeHoy() throws Exception{
         String fecha = JOptionPane.showInputDialog("Indica la fecha de hoy");
         LocalDate hoy = LocalDate.parse(fecha,formatoFecha);
+        eliminarCaducados(hoy);
     }
+
+    public static void eliminarCaducados(LocalDate hoy) throws Exception{
+        for (LocalDate fecha : fechasCaducidad) {
+            if(fecha.isBefore(hoy)){
+                fechasCaducidad.remove();
+                nombresProductos.remove();
+            }
+        }
+    }
+
+    public static void mostrarResultado() throws Exception{
+        StringBuilder resultado = new StringBuilder("Productos:\n");
+        for(String nombre : nombresProductos){
+            resultado.append(nombre+"\n");
+        }
+        JOptionPane.showMessageDialog(null,resultado);
+    }
+
+
 }
