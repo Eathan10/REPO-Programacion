@@ -18,14 +18,18 @@ public class Main {
     }
 
     public static void mostrarMenu(){
-        String op = JOptionPane.showInputDialog("Teclea una opcion: " +
-                "a) Añadir un libro a la pila: Solicitar al usuario el titulo del libro y colocarlo en la parte superior de la pila." +
-                "b) Consultar el libro en la parte superior: Mostrar el titulo del libro que esta en la parte superior sin eliminarlo." +
-                "c) Retirar el libro en la parte superior: Eliminar el libro de la parte superior de la pila y mostrar su titulo." +
-                "d) Mostrar todos los libros en la pila: Listar todos los libros, desde el mas reciente hasta el m´ as antiguo." +
-                "e) Verificar si la pila esta vacia: Informar al usuario si no hay libros en la pila." +
-                "f) Salir del programa.");
-        gestionarOpcionElegida(op);
+        String op;
+        do {
+            op = JOptionPane.showInputDialog("Teclea una opcion: " +
+                    "\na) Añadir un libro a la pila" +
+                    "\nb) Consultar el libro en la parte superior" +
+                    "\nc) Retirar el libro en la parte superior" +
+                    "\nd) Mostrar todos los libros en la pila" +
+                    "\ne) Verificar si la pila esta vacia" +
+                    "\nf) Salir del programa");
+            gestionarOpcionElegida(op);
+        }while (!op.equalsIgnoreCase("f"));
+
     }
 
     public static void gestionarOpcionElegida(String op){
@@ -37,27 +41,54 @@ public class Main {
                 mostrarLibroSuperior();
                 break;
             case "c":
-
+                eliminarLibroSuperiorYmostrarlo();
                 break;
             case "d":
-
+                mostrarTodosLosLibros();
                 break;
             case "e":
-
+                pilaVaciaOno();
                 break;
             case "f":
-
+                JOptionPane.showMessageDialog(null, "Saliendo del programa");
                 break;
         }
     }
 
     public static void agregarLibro(){
         String titulo = JOptionPane.showInputDialog("Titulo del libro para añadirlo a la pila: ");
-        pilaLibros.add(titulo);
+        pilaLibros.push(titulo);
     }
+
     public static void mostrarLibroSuperior(){
-        JOptionPane.showMessageDialog(null,pilaLibros);
+        JOptionPane.showMessageDialog(null,pilaLibros.peek());
     }
+
+    public static void eliminarLibroSuperiorYmostrarlo(){
+        JOptionPane.showMessageDialog(null,pilaLibros.pop());
+    }
+
+    public static void mostrarTodosLosLibros(){
+        StringBuilder mensaje = new StringBuilder("Todos los libros de la pila son:");
+        for(String libro: pilaLibros){
+            mensaje.append("\n- " + libro);
+        }
+        JOptionPane.showMessageDialog(null,mensaje);
+    }
+
+    public static void pilaVaciaOno(){
+        if (pilaLibros.isEmpty()){
+            JOptionPane.showMessageDialog(null,"La pila esta vacia");
+        } else {
+            JOptionPane.showMessageDialog(null,"La pila SI tiene libros");
+        }
+    }
+
+
+
+
+
+
 
 
 
