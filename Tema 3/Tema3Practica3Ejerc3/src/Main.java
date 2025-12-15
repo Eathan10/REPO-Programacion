@@ -70,9 +70,11 @@ public class Main {
 
     public static void mostrarTodosLosLibros(){
         StringBuilder mensaje = new StringBuilder("Todos los libros de la pila son:");
+
         for(String libro: pilaLibros){
             mensaje.append("\n- " + libro);
         }
+
         JOptionPane.showMessageDialog(null,mensaje);
     }
 
