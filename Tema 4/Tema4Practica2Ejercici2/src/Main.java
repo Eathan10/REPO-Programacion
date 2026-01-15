@@ -35,18 +35,23 @@ public class Main {
         listaEstudios.add(estudio3);
 
 
-
         ArrayList<Estudio> estudiosP1 = new ArrayList<>();
         estudiosP1.add(estudio1);
         estudiosP1.add(estudio2);
         Pelicula peli1 = new Pelicula("Titanic",1999,160,"Romance",estudiosP1);
         listaPeliculas.add(peli1);
+        ArrayList<Pelicula> peliculas1 = new ArrayList<>();
+        peliculas1.add(peli1);
+        estudio1.setPeliculas(peliculas1);
 
 
         ArrayList<Estudio> estidiosP2 = new ArrayList<>();
         estidiosP2.add(estudio3);
         Pelicula peli2 = new Pelicula("Los 7 pecados",2006,138,"Aventura",estidiosP2);
         listaPeliculas.add(peli2);
+        ArrayList<Pelicula> peliculas2 = new ArrayList<>();
+        peliculas2.add(peli2);
+        estudio1.setPeliculas(peliculas2);
 
 
         ArrayList<Estudio> estidiosP3 = new ArrayList<>();
@@ -64,55 +69,5 @@ public class Main {
 
     }
 
-    public static void conseguirEstudioConPeliMasLarga(){
-
-        int tiempoMasAlto = 0;
-
-        Pelicula peliMasLarga = new Pelicula();
-        ArrayList<Estudio> estudiosConPeliMasLarga = new ArrayList<>();
-
-        for (Pelicula peli : listaPeliculas){
-            if (peli.getDuracionMinutos() > tiempoMasAlto){
-                tiempoMasAlto = peli.getDuracionMinutos();
-                peliMasLarga = peli;
-                estudiosConPeliMasLarga.addAll(peli.getListaEstudios());
-            }
-        }
-
-        StringBuilder stringConEstudios = new StringBuilder("\n");
-
-        for (Estudio estudio : estudiosConPeliMasLarga){
-            stringConEstudios.append(estudio.getNombre()).append("\n");
-        }
-
-        JOptionPane.showMessageDialog(null,"El o los estudios que tienen la peli mas larga es o son: "
-                + stringConEstudios + " con la peli " + peliMasLarga.getTitulo());
-    }
-
-    public static void conseguirEstudioConMasPelis(){
-        int contadorDisney = 0;
-        int contadorDreamWorks = 0;
-        int contadosWarner = 0;
-
-        for (Pelicula peli : listaPeliculas){
-            for(Estudio estudio : peli.getListaEstudios()){
-                if (estudio.getNombre().equalsIgnoreCase("Disney")){
-                    contadorDisney++;
-                } else if (estudio.getNombre().equalsIgnoreCase("DreamWorks")){
-                    contadorDreamWorks++;
-                } else if (estudio.getNombre().equalsIgnoreCase("Warner")){
-                    contadosWarner++;
-                }
-            }
-        }
-
-        if(contadorDisney > contadosWarner && contadorDisney > contadorDreamWorks){
-            JOptionPane.showMessageDialog(null,"Estudio con mas pelis producidas es: Disney");
-        }else if(contadosWarner > contadorDreamWorks && contadosWarner > contadorDisney){
-            JOptionPane.showMessageDialog(null,"Estudio con mas pelis producidas es: Warner");
-        }else{
-            JOptionPane.showMessageDialog(null,"Estudio con mas pelis producidas es: DreamWorks");
-        }
-
-    }
+    
 }
