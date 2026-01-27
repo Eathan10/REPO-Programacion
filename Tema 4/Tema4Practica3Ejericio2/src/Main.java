@@ -84,6 +84,17 @@ public class Main {
 
     public static void pedirDatosMascotas() throws Exception{
 
+        Mascota mascota = new Mascota(validarSolicitarDatos("Nombre","Teclea el nombre del animal","^[a-zA-Z]+$"),
+                                      validarSolicitarDatos("Tipo","Teclea el tipo (perro, gato, tortuga, etc,...)","^[a-zA-Z]+$"),
+                                      validarSolicitarDatos("Raza","Teclea la raza","^[a-zA-Z]+$"),
+
+
+
+                            );
+
+
+
+
     }
 
     public static void llenarDatosVeterinarios() throws Exception{
