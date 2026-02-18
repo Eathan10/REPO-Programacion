@@ -2,19 +2,44 @@ package Modelo;
 
 public class Circunferencia {
 
-    private double longitudCircunferencia;
+    private double longitud;
+    private double area;
+    private double volumen;
 
 
-    public Circunferencia(double longitudCircunferencia) {
-        this.longitudCircunferencia = longitudCircunferencia;
+    private final double PI = Math.PI;
+
+    public void calcularTodo(double radio) {
+        this.longitud = 2 * PI * radio;
+        this.area = PI * Math.pow(radio, 2);
+        this.volumen = (4.0 / 3.0) * PI * Math.pow(radio, 3);
     }
 
-    public Circunferencia() {
+    public double getLongitud() {
+        return longitud;
     }
 
-    public void calcularCircunferencia(double pi, double radio){
+    public void setLongitud(double longitud) {
+        this.longitud = longitud;
+    }
 
-        this.longitudCircunferencia = pi * radio;
-          
+    public double getArea() {
+        return area;
+    }
+
+    public void setArea(double area) {
+        this.area = area;
+    }
+
+    public double getVolumen() {
+        return volumen;
+    }
+
+    public void setVolumen(double volumen) {
+        this.volumen = volumen;
+    }
+
+    public double getPI() {
+        return PI;
     }
 }
